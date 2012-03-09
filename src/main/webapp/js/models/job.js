@@ -1,6 +1,6 @@
 define([
-  'underscore',
-  'backbone'
+  'Underscore',
+  'Backbone'
 ], function(_, Backbone) {
   var jobModel = Backbone.Model.extend({
     defaults: {

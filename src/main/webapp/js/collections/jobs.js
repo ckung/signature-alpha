@@ -1,7 +1,7 @@
 define([
-  'jquery',
-  'underscore',
-  'backbone',
+  'jQuery',
+  'Underscore',
+  'Backbone',
   'models/job'
 ], function($, _, Backbone, jobModel){
   var projectsCollection = Backbone.Collection.extend({
